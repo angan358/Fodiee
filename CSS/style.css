@@ -73,3 +73,10 @@ a{
 .socials i:first-child{
     margin-left: 0;
 }
+/* dish-image section================ */
+.dish-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
