@@ -112,3 +112,32 @@ a{
     color: rgb(91, 86, 91);
     text-align: center;
 }
+
+/* region-img section styling===== */
+.region-food{
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+}
+.region-img{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+.region-img .img-1{
+    height: 350px;
+    width: 350px;
+}
+.region-img .img-2{
+    height: 350px;
+    width: 350px;
+}
+.region-img .img-3{
+    height: 350px;
+    width: 350px;
+}
