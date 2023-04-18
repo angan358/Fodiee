@@ -138,16 +138,16 @@ a{
     align-items: center;
 }
 .region-img-1 .img-1{                   
-    height: 350px;
-    width: 380px;
+    height: 200px;
+    width: 250px;
 }
 .region-img-2 .img-2{
-    height: 350px;
-    width: 380px;
+    height: 200px;
+    width: 250px;
 }
 .region-img-3 .img-3{
-    height: 350px;
-    width: 380px;
+    height: 200px;
+    width: 250px;
 }
 .region-img-1{
     text-align: center;
@@ -170,4 +170,24 @@ a{
     font-size: 0.9rem;
     letter-spacing: 0.3px;
     margin-bottom: 10px;
+}
+
+/* food-diversity section=============== */
+.food-diversity{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* max-width: 900px; */
+    width: 100%;
+    margin: 20px auto;
+    background-color: #232322;
+}
+.heading{
+    color: blanchedalmond;
+    font-size:1.3rem;
+    font-weight: 500;
+}
+.para{
+    font-size: 1.0rem;
 }
