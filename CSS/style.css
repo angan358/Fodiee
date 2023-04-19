@@ -187,7 +187,24 @@ a{
     color: blanchedalmond;
     font-size:1.3rem;
     font-weight: 500;
+    /* justify-content: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 60px auto;
 }
 .para{
     font-size: 1.0rem;
+    text-align: center;
+}
+.food-walpaper{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-gap: 10px;
+}
+.food-walpaper img{
+    height: 350px;
+    width: 450px;
+    border-radius: 20px;
 }
