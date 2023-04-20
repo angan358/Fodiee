@@ -208,3 +208,42 @@ a{
     width: 450px;
     border-radius: 20px;
 }
+
+/* Contact Section============== */
+.contact-us{
+    width: 90%;
+    max-width: 950px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    margin: 80px auto;
+    text-align: center;
+}
+.contact-us strong{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #8d94b4;
+    letter-spacing: 1px;
+}
+
+.contact-us p{
+    color: #252525;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.contact-us h3{
+    color: #1d1d1d;
+    font-size: 2.4rem;
+    letter-spacing: 1px;
+}
+.contact-us a{
+    width: 200px;
+    height: 45px;
+    background-color: #8d94b43b;
+    color:#1a1a1a;
+    font-weight: 600;
+    margin-top: 20px;
+    padding: 10px;
+}
